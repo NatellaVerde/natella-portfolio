@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+    .direct {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) {
+    .direct {
+        flex-direction: row;
+    }
+}
