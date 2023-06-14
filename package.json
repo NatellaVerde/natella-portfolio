@@ -1,7 +1,7 @@
 {
     "name": "natella-portfolio",
     "version": "0.1.0",
-    "homepage": "/",
+    "homepage": "https://NatellaVerde.github.io/natella-portfolio",
     "private": true,
     "dependencies": {
         "axios": "^0.24.0",
