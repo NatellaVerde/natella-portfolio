@@ -4,16 +4,20 @@ import PropTypes from "prop-types";
 
 const Hero = ({ onHandleClick }) => {
     return (
-        <div onClick={onHandleClick} className={style.backgroundPic} style={{ backgroundImage: "url(./assets/rectangle.png)" }}>
+        <div onClick={onHandleClick} className={style.backgroundPic}
+             style={{ backgroundImage: "url(./assets/img_hero3.jpg)"}}>
             <div className="container text-white">
-                <h1 className={style.title}>
-                    This is Natalia Zhelonkina's website, showcasing portfolio and the technologies <br/>
-                    I use</h1>
-                <div className="text-white">
-                    <h3>
-                        I have a passion for running, yoga, <br/>
-                        and constantly learning and applying new things in my projects
-                    </h3>
+                <div className={style.textWidth}>
+                    <h1 className={`${style.title} ${style.margin}` }>
+                        My name is Natalia Zhelonkina's and it's my website,
+                        showcasing portfolio and the technologies I use</h1>
+                    <div className="text-white">
+                        <h3 className={style.text}>
+                            I have a passion for running, yoga,
+                            and constantly learning and applying new things in my projects
+                        </h3>
+                        <h3 className={style.text}>I would like to contribute to the development of renewable energy sources</h3>
+                    </div>
                 </div>
             </div>
             <div className={style.block}>

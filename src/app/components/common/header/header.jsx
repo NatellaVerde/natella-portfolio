@@ -8,12 +8,12 @@ const Header = ({ color, isActive, onHandleClick }) => {
         <div className={"navbar position-absolute w-100 h-10 " + style.header__zIndex}>
             <div className="container">
                 <div className="nav-link p-0" aria-current="page" >
-                    <h4 style={{ color: `${color}` }}>Natella</h4>
+                    <h4 style={{ color: '#497557'}}>Natella</h4>
                 </div>
                 <button onClick={ () => onHandleClick() } className={"btn " + style.visible} style={{ color: `${color}`, fontSize: "24px" }}>
                     {isActive ? <i className="bi bi-toggle-on"/> : <i className="bi bi-toggle-off"/>}
                 </button>
-                <NavBar color={color}/>
+                <NavBar color="rgb(73, 117, 87, 0.9)"/>
             </div>
         </div>
     );
